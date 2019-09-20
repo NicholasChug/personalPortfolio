@@ -1,0 +1,28 @@
+$primaryFont: 'Rubik', sans-serif;
+$primaryFontColor: #333333;
+$secondaryFontColor: #999999;
+
+$primaryColor: #f9f9f9;
+$secondaryColor: #ffffff;
+$accentColor: #fece47;
+
+body {
+    font-family: $primaryFont;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.subHeading {
+    font-size: 4rem;
+}
+
+.bodyText {
+    font-size: 2rem;
+}

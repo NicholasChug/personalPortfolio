@@ -1,0 +1,37 @@
+.headerSection {
+    background-color: $primaryColor;
+    margin-top: 0;
+    height: 100vh;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerSection ul {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    list-style-type: none;
+}
+
+.headerSection li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.headerSection a:hover {
+    color: $accentColor;
+}
+
+.mainHeader {
+    font-size: 8rem;
+}
+
+.yellowHeader {
+    color: $accentColor;
+}
+
+.secondaryHeader {
+    font-size: 2.4rem;
+}

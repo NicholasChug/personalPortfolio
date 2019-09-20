@@ -1,0 +1,21 @@
+.skills {
+    background-color: $primaryColor;
+}
+
+.skillColumn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillColumn div {
+    width: 33%;
+}
+
+.individualSkill {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
