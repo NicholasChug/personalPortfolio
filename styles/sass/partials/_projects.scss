@@ -1,8 +1,29 @@
 .projects {
     background-color: $secondaryColor;
+    padding: 2% 0;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 .projectImage {
     width: 500px;
     height: auto;
+}
+
+.individualProject {
+    display: flex;
+    padding: 2% 0;
+}
+
+.individualProject div {
+    width: 50%;
+}
+
+.smallIcon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }

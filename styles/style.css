@@ -181,6 +181,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -280,6 +281,7 @@ h3 {
 
 .about {
   background-color: #ffffff;
+  padding: 5% 0;
 }
 
 .aboutFlex {
@@ -294,6 +296,14 @@ h3 {
 
 .aboutFlexRight {
   width: 50%;
+  margin: auto 0;
+  margin-left: 5%;
+}
+
+.headshot {
+  margin-top: 20px;
+  -webkit-box-shadow: 20px 20px #fece47;
+          box-shadow: 20px 20px #fece47;
 }
 
 .skills {
@@ -335,6 +345,12 @@ h3 {
 
 .projects {
   background-color: #ffffff;
+  padding: 2% 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .projectImage {
@@ -342,8 +358,30 @@ h3 {
   height: auto;
 }
 
+.individualProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2% 0;
+}
+
+.individualProject div {
+  width: 50%;
+}
+
+.smallIcon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
 .contact {
   background-color: #f9f9f9;
+  padding: 2% 0;
+}
+
+.contact h2 {
+  text-align: center;
 }
 
 .footer {

@@ -1,5 +1,6 @@
 .about {
     background-color: #ffffff;
+    padding: 5% 0;
 }
 
 .aboutFlex {
@@ -12,4 +13,11 @@
 
 .aboutFlexRight {
     width: 50%;
+    margin: auto 0;
+    margin-left: 5%;
+}
+
+.headshot {
+    margin-top: 20px;
+    box-shadow: 20px 20px $accentColor;
 }
