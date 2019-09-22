@@ -206,6 +206,7 @@ a {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -358,11 +359,26 @@ h3 {
   height: auto;
 }
 
+.projectTitle {
+  margin-bottom: 15px;
+}
+
+.imageLeft {
+  -webkit-box-shadow: -30px -30px #fece47;
+          box-shadow: -30px -30px #fece47;
+}
+
+.imageRight {
+  margin-left: 70px;
+  -webkit-box-shadow: 30px 30px #fece47;
+          box-shadow: 30px 30px #fece47;
+}
+
 .individualProject {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2% 0;
+  padding: 4% 0;
 }
 
 .individualProject div {
@@ -373,6 +389,24 @@ h3 {
   width: 50px;
   height: 50px;
   display: inline-block;
+  margin: 0 15px;
+}
+
+.smallFa {
+  margin: 0 15px;
+}
+
+.viewButton {
+  display: block;
+  height: 50px;
+  border-style: none;
+  margin-top: 10px;
+  background-color: #fece47;
+}
+
+.viewButton:hover {
+  background-color: #999999;
+  color: #f9f9f9;
 }
 
 .contact {
