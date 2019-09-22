@@ -384,6 +384,16 @@ h3 {
   text-align: center;
 }
 
+.contactForm {
+  width: 60%;
+}
+
+.contactForm input[type=text],
+.contactForm input[type=email] {
+  width: 100%;
+  margin: 2% 0;
+}
+
 .footer {
   background-color: #333333;
   color: #ffffff;
