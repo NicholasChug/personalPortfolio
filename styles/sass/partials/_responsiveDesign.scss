@@ -12,16 +12,76 @@
     .headerText {
         margin-top: 50%;
     }
+
+    .aboutFlex {
+        flex-wrap: wrap;
+    }
+
+    .aboutFlexLeft {
+        width: 100%;
+    }
+
+    .aboutFlexRight {
+        width: 100%;
+        margin: 0;
+        margin-top: 35px;
+    }
+
+    .individualProject {
+        flex-wrap: wrap;
+    }
+
+    .individualProject div {
+        width: 100%;
+    }
+
+    .orderTwo {
+        order: 2;
+    }
+
+    .projectRight {
+        margin-left: 0;
+        margin-top: 45px;
+    }
+
+    .imageRight {
+        margin-left: 0;
+        margin-bottom: 45px;
+    }
 }
 
 @media (max-width: 414px) {
+    .mainHeader {
+        font-size: 6.5rem;
+    }
 
+    .skillColumn div {
+        width: 50%;
+    }
+
+    .skillColumn div:last-child {
+        width: 100%;
+    }
+
+    .imageLeft {
+        box-shadow: -10px 10px $accentColor;
+        margin-top: 25px;
+    }
+
+    .imageRight {
+        box-shadow: 10px 10px $accentColor;
+        margin-top: 25px;
+    }
 }
 
 @media (max-width: 375px) {
-    
+    .headerText {
+        margin-top: 40%;
+    }
 }
 
 @media (max-width: 320px) {
-
+    .socialIcon {
+        margin: 20px 10px 0 0;
+    }
 }
