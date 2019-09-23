@@ -9,7 +9,7 @@
 }
 
 .projectImage {
-    width: 500px;
+    width: 100%;
     height: auto;
 }
 
@@ -24,6 +24,10 @@
 .imageRight {
     margin-left: 70px;
     box-shadow: 30px 30px $accentColor;
+}
+
+.projectRight {
+    margin-left: 70px;
 }
 
 .individualProject {
@@ -46,16 +50,24 @@
     margin: 0 15px;
 }
 
+.externalProjectLinks {
+    display: flex;
+}
+
 .viewButton {
-    display: block;
     height: 50px;
     width: 150px;
     border-style: none;
     margin-top: 10px;
+    margin-right: 10px;
     background-color: $accentColor;
 }
 
 .viewButton:hover {
     background-color: $secondaryFontColor;
     color: $primaryColor;
+}
+
+.friendLink {
+    color: $accentColor;
 }

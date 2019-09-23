@@ -265,7 +265,11 @@ h3 {
 }
 
 .headerText {
-  margin-top: 20%;
+  margin-top: 18%;
+}
+
+.socialIcon {
+  margin: 20px 15px 0 0;
 }
 
 .mainHeader {
@@ -355,7 +359,7 @@ h3 {
 }
 
 .projectImage {
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -372,6 +376,10 @@ h3 {
   margin-left: 70px;
   -webkit-box-shadow: 30px 30px #fece47;
           box-shadow: 30px 30px #fece47;
+}
+
+.projectRight {
+  margin-left: 70px;
 }
 
 .individualProject {
@@ -396,18 +404,28 @@ h3 {
   margin: 0 15px;
 }
 
+.externalProjectLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .viewButton {
-  display: block;
   height: 50px;
   width: 150px;
   border-style: none;
   margin-top: 10px;
+  margin-right: 10px;
   background-color: #fece47;
 }
 
 .viewButton:hover {
   background-color: #999999;
   color: #f9f9f9;
+}
+
+.friendLink {
+  color: #fece47;
 }
 
 .contact {
@@ -440,6 +458,7 @@ h3 {
 
 textarea {
   resize: none;
+  width: 100%;
 }
 
 .footer {
@@ -447,4 +466,19 @@ textarea {
   color: #ffffff;
   text-align: center;
   padding: 2% 0;
+}
+
+@media (max-width: 1024px) {
+  .aboutFlexRight {
+    margin-left: 8%;
+  }
+  .contactForm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerText {
+    margin-top: 50%;
+  }
 }
