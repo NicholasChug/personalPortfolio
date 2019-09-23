@@ -51,6 +51,11 @@
 }
 
 @media (max-width: 414px) {
+    .headerSection li {
+        display: block;
+        margin: 0;
+    }
+    
     .mainHeader {
         font-size: 6.5rem;
     }
