@@ -364,8 +364,8 @@ h3 {
 }
 
 .imageLeft {
-  -webkit-box-shadow: -30px -30px #fece47;
-          box-shadow: -30px -30px #fece47;
+  -webkit-box-shadow: -30px 30px #fece47;
+          box-shadow: -30px 30px #fece47;
 }
 
 .imageRight {
@@ -399,6 +399,7 @@ h3 {
 .viewButton {
   display: block;
   height: 50px;
+  width: 150px;
   border-style: none;
   margin-top: 10px;
   background-color: #fece47;
@@ -412,6 +413,9 @@ h3 {
 .contact {
   background-color: #f9f9f9;
   padding: 2% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact h2 {
@@ -419,13 +423,23 @@ h3 {
 }
 
 .contactForm {
+  padding-top: 3%;
   width: 60%;
+  margin: 0 auto;
+}
+
+.contactForm button {
+  width: 100%;
 }
 
 .contactForm input[type=text],
 .contactForm input[type=email] {
   width: 100%;
   margin: 2% 0;
+}
+
+textarea {
+  resize: none;
 }
 
 .footer {

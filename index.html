@@ -107,7 +107,7 @@
                         <i class="fab fa-html5 fa-5x"></i>
                         <i class=" smallFa fab fa-css3-alt fa-5x"></i>
                         <i class="fab fa-sass fa-5x"></i>
-                        <button class='bodyText viewButton'>View Live</button>
+                        <button class='bodyText viewButton'><a href='https://nicholaschug.github.io/nicholas-chug-project-two/'>View Live</a></button>
                     </div>
                 </div>
                 <div class='individualProject'>
@@ -117,7 +117,7 @@
                         <hr>
                         <i class="fab fa-js-square fa-5x"></i>
                         <img class='smallIcon' src="./Assets/jquery.svg" alt="">
-                        <button class='bodyText viewButton'>View Live</button>
+                        <button class='bodyText viewButton'><a href='https://nicholaschug.github.io/nicholasChugProjectThree/'>View Live</a></button>
                     </div>
                     <div> 
                         <img class='imageRight projectImage' src="./Assets/projectScreenshots/Screen Shot 2019-09-20 at 3.15.40 PM.png" alt="">
@@ -170,12 +170,14 @@
             <div class="wrapper">
                 <h2 class='subHeading'>Let's get in touch!</h2>
                 <div class='contactForm'>
-                    <form>
-                        <label class='bodyText' for="">Name:</label>
-                        <input class='bodyText' type="text">
-                        <label class='bodyText' for="">Email:</label>
-                        <input class='bodyText' type="email">
-                        <textarea class='bodyText' name="" id="" cols="60" rows="10"></textarea>
+                    <form action="https://formspree.io/email@domain.tld" method="POST">
+                        <label class='bodyText' for="name">Name:</label>
+                        <input class='bodyText' name='name' type="text" placeholder='Your name here...'>
+                        <label class='bodyText' for="email">Email:</label>
+                        <input class='bodyText' name='email' type="email" placeholder='Enter your email'>
+                        <label for='message'></label>
+                        <textarea class='bodyText' name="message" id="" cols="60" rows="10"></textarea>
+                        <button class='bodyText viewButton' type='submit'>Let's Connect</button>
                     </form>
                 </div>
             </div>

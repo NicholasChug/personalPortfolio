@@ -1,6 +1,7 @@
 .contact {
     background-color: $primaryColor;
     padding: 2% 0;
+    display: flex;
 }
 
 .contact h2 {
@@ -8,11 +9,21 @@
 }
 
 .contactForm {
+    padding-top: 3%;
     width: 60%;
+    margin: 0 auto;
+}
+
+.contactForm button {
+    width: 100%;
 }
 
 .contactForm input[type=text],
 .contactForm input[type=email] {
     width: 100%;
     margin: 2% 0;
+}
+
+textarea {
+    resize: none;
 }
