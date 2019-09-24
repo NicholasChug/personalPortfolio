@@ -297,10 +297,6 @@ h3 {
   font-size: 3rem;
 }
 
-.navIcon {
-  display: none;
-}
-
 .about {
   background-color: #ffffff;
   padding: 5% 0;
@@ -448,6 +444,10 @@ h3 {
 .friendLink:focus,
 .friendLink:hover {
   color: #999999;
+}
+
+.friendLink:visited {
+  color: #fece47;
 }
 
 .contact {

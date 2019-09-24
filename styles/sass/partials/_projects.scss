@@ -76,3 +76,7 @@
 .friendLink:hover {
     color: $secondaryFontColor;
 }
+
+.friendLink:visited {
+    color: $accentColor;
+}
