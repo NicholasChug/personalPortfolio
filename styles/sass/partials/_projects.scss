@@ -27,7 +27,7 @@
 }
 
 .projectRight {
-    margin-left: 70px;
+    margin-left: 65px;
 }
 
 .individualProject {
@@ -37,6 +37,14 @@
 
 .individualProject div {
     width: 50%;
+}
+
+.projectText {
+    margin: 20px 0;
+}
+
+.iconRow {
+    margin: 15px 0;
 }
 
 .smallIcon {
@@ -55,11 +63,12 @@
 }
 
 .viewButton {
+    font-size: 2rem;
     height: 50px;
     width: 150px;
     border-style: none;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     background-color: $accentColor;
 }
 

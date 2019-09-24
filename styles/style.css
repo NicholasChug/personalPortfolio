@@ -244,7 +244,8 @@ h3 {
 }
 
 .bodyText {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  line-height: 1.4;
 }
 
 .headerSection {
@@ -294,7 +295,7 @@ h3 {
 }
 
 .secondaryHeader {
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 
 .about {
@@ -392,7 +393,7 @@ h3 {
 }
 
 .projectRight {
-  margin-left: 70px;
+  margin-left: 65px;
 }
 
 .individualProject {
@@ -404,6 +405,14 @@ h3 {
 
 .individualProject div {
   width: 50%;
+}
+
+.projectText {
+  margin: 20px 0;
+}
+
+.iconRow {
+  margin: 15px 0;
 }
 
 .smallIcon {
@@ -424,11 +433,12 @@ h3 {
 }
 
 .viewButton {
+  font-size: 2rem;
   height: 50px;
   width: 150px;
   border-style: none;
   margin-top: 10px;
-  margin-right: 10px;
+  margin-right: 15px;
   background-color: #fece47;
 }
 
