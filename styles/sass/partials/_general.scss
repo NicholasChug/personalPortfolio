@@ -1,6 +1,5 @@
 html {
     font-size: 62.5%;
-    // scroll-behavior: smooth;
 }
 
 img {
@@ -30,4 +29,19 @@ a {
 
 a:visited {
     color: black;
+}
+
+// Skip Links
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+    font-size: 4rem;
+}
+
+.skip-link:focus {
+    left: 0;
 }
