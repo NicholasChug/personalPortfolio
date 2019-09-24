@@ -297,6 +297,10 @@ h3 {
   font-size: 3rem;
 }
 
+.navIcon {
+  display: none;
+}
+
 .about {
   background-color: #ffffff;
   padding: 5% 0;
@@ -441,6 +445,11 @@ h3 {
   color: #fece47;
 }
 
+.friendLink:focus,
+.friendLink:hover {
+  color: #999999;
+}
+
 .contact {
   background-color: #f9f9f9;
   padding: 2% 0;
@@ -541,7 +550,7 @@ textarea:focus {
 @media (max-width: 414px) {
   .headerSection li {
     display: block;
-    margin: 0;
+    margin-top: 10px;
   }
   .mainHeader {
     font-size: 6.5rem;

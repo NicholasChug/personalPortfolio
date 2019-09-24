@@ -71,3 +71,8 @@
 .friendLink {
     color: $accentColor;
 }
+
+.friendLink:focus,
+.friendLink:hover {
+    color: $secondaryFontColor;
+}
