@@ -465,13 +465,23 @@ h3 {
 
 .contactForm input[type=text],
 .contactForm input[type=email] {
+  border: none;
+  border-bottom: 2px solid #333333;
+  background-color: #f9f9f9;
   width: 100%;
   margin: 2% 0;
 }
 
 textarea {
+  background-color: #f9f9f9;
   resize: none;
   width: 100%;
+}
+
+.contactForm input[type=text]:focus,
+.contactForm input[type=email]:focus,
+textarea:focus {
+  background-color: #ffffff;
 }
 
 .footer {
