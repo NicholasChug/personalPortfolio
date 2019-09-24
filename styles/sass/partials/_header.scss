@@ -43,3 +43,14 @@
 .secondaryHeader {
     font-size: 3.4rem;
 }
+
+.resumeDownload {
+    background-color: $accentColor;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.resumeDownload:hover {
+    background-color: $primaryFontColor;
+}
