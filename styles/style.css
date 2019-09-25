@@ -518,10 +518,6 @@ textarea:focus {
   text-align: center;
 }
 
-.backToTop a:hover {
-  color: #fece47;
-}
-
 .footer {
   background-color: #333333;
   color: #ffffff;
@@ -574,6 +570,9 @@ textarea:focus {
     margin-left: 0;
     margin-bottom: 45px;
   }
+  .backToTop {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 414px) {
@@ -603,6 +602,9 @@ textarea:focus {
     -webkit-box-shadow: 10px 10px #fece47;
             box-shadow: 10px 10px #fece47;
     margin-top: 25px;
+  }
+  .backToTop {
+    margin-top: 30px;
   }
 }
 

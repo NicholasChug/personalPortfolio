@@ -48,6 +48,10 @@
         margin-left: 0;
         margin-bottom: 45px;
     }
+
+    .backToTop {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -58,11 +62,6 @@
     .headerFlex {
         justify-content: center;
     }
-
-    // .headerSection li {
-    //     display: block;
-    //     margin-top: 10px;
-    // }
     
     .mainHeader {
         font-size: 6.5rem;
@@ -84,6 +83,10 @@
     .imageRight {
         box-shadow: 10px 10px $accentColor;
         margin-top: 25px;
+    }
+
+    .backToTop {
+        margin-top: 30px;
     }
 }
 
