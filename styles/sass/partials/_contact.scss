@@ -38,3 +38,12 @@ textarea {
 textarea:focus {
     background-color: #ffffff;
 }
+
+.backToTop {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.backToTop a:hover {
+    color: $accentColor;
+}

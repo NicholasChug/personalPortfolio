@@ -51,10 +51,18 @@
 }
 
 @media (max-width: 414px) {
-     .headerSection li {
-         display: block;
-         margin-top: 10px;
-     }
+    .headerText {
+        margin-top: 40%;
+    }
+
+    .headerFlex {
+        justify-content: center;
+    }
+
+    // .headerSection li {
+    //     display: block;
+    //     margin-top: 10px;
+    // }
     
     .mainHeader {
         font-size: 6.5rem;
@@ -88,5 +96,9 @@
 @media (max-width: 320px) {
     .socialIcon {
         margin: 20px 10px 0 0;
+    }
+
+    .headerSection ul {
+        font-size: 1.6rem;
     }
 }

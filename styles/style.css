@@ -301,7 +301,7 @@ h3 {
 .resumeDownload {
   background-color: #fece47;
   border-style: none;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-top: 25px;
 }
 
@@ -513,6 +513,15 @@ textarea:focus {
   background-color: #ffffff;
 }
 
+.backToTop {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.backToTop a:hover {
+  color: #fece47;
+}
+
 .footer {
   background-color: #333333;
   color: #ffffff;
@@ -568,9 +577,13 @@ textarea:focus {
 }
 
 @media (max-width: 414px) {
-  .headerSection li {
-    display: block;
-    margin-top: 10px;
+  .headerText {
+    margin-top: 40%;
+  }
+  .headerFlex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .mainHeader {
     font-size: 6.5rem;
@@ -602,5 +615,8 @@ textarea:focus {
 @media (max-width: 320px) {
   .socialIcon {
     margin: 20px 10px 0 0;
+  }
+  .headerSection ul {
+    font-size: 1.6rem;
   }
 }
