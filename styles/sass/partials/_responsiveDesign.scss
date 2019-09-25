@@ -56,11 +56,11 @@
 
 @media (max-width: 414px) {
     .headerText {
-        margin-top: 40%;
+        margin-top: 35%;
     }
 
-    .headerFlex {
-        justify-content: center;
+    .headerFlex li {
+        display: block;
     }
     
     .mainHeader {
@@ -92,7 +92,7 @@
 
 @media (max-width: 375px) {
     .headerText {
-        margin-top: 40%;
+        margin-top: 25%;
     }
 }
 

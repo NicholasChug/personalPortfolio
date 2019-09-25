@@ -577,12 +577,10 @@ textarea:focus {
 
 @media (max-width: 414px) {
   .headerText {
-    margin-top: 40%;
+    margin-top: 35%;
   }
-  .headerFlex {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .headerFlex li {
+    display: block;
   }
   .mainHeader {
     font-size: 6.5rem;
@@ -610,7 +608,7 @@ textarea:focus {
 
 @media (max-width: 375px) {
   .headerText {
-    margin-top: 40%;
+    margin-top: 25%;
   }
 }
 
